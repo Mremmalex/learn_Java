@@ -4,6 +4,7 @@ package main;
 public class Array{
 
     public static void main(String[] args) {
+
         String[] users = { "jenifer", "goodlock", "kalu", "esther" };
         System.out.println(users[2]); 
 
