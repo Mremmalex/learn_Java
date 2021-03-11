@@ -31,6 +31,6 @@ class PPerson implements Users{
     }
 
     public int CheckID(int id){
-        return id++;
+        return id+1;
     }
 }
