@@ -7,8 +7,7 @@ public class UserInput{
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter Your Username");
-
-
+         
         String username = myObj.nextLine();
 
         int age = myObj.nextInt();
