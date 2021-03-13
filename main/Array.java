@@ -1,17 +1,16 @@
 package main;
-
-
+import java.util.Arrays;
 public class Array{
 
     public static void main(String[] args) {
-
         String[] users = { "jenifer", "goodlock", "kalu", "esther" };
-        System.out.println(users[2]); 
+
+        // System.out.println(users[2]); 
 
         //changing the value of an array 
         //
         users[2] = "blessing";        
-        System.out.println(users[2]); 
+        System.out.println(Arrays.toString(users)); 
 
         //getting array length
         System.out.println(users.length);
